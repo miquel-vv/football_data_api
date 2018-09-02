@@ -1,0 +1,229 @@
+{
+    "id": 759,
+    "area": {
+        "id": 2088,
+        "name": "Germany"
+    },
+    "activeCompetitions": [],
+    "name": "Germany",
+    "shortName": "Germany",
+    "tla": "GER",
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
+    "address": "Otto-Fleck-Schneise 6 / Postfach 710265 Frankfurt am Main 60492",
+    "phone": "+49 (69) 67880",
+    "website": "http://www.dfb.de",
+    "email": "info@dfb.de",
+    "founded": 1900,
+    "clubColors": "White / Black",
+    "venue": null,
+    "squad": [
+        {
+            "id": 47,
+            "name": "Toni Kroos",
+            "position": "Midfielder",
+            "dateOfBirth": "1990-01-04T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 138,
+            "name": "Marco Reus",
+            "position": "Midfielder",
+            "dateOfBirth": "1989-05-31T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 148,
+            "name": "Julian Brandt",
+            "position": "Attacker",
+            "dateOfBirth": "1996-05-02T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 184,
+            "name": "Jonas Hector",
+            "position": "Defender",
+            "dateOfBirth": "1990-05-27T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 341,
+            "name": "Manuel Neuer",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1986-03-27T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 347,
+            "name": "Jérôme Boateng",
+            "position": "Defender",
+            "dateOfBirth": "1988-09-03T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 350,
+            "name": "Mats Hummels",
+            "position": "Defender",
+            "dateOfBirth": "1988-12-16T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 351,
+            "name": "Niklas Süle",
+            "position": "Defender",
+            "dateOfBirth": "1995-09-03T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 359,
+            "name": "Joshua Kimmich",
+            "position": "Midfielder",
+            "dateOfBirth": "1995-02-08T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 367,
+            "name": "Sebastian Rudy",
+            "position": "Midfielder",
+            "dateOfBirth": "1990-02-28T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 370,
+            "name": "Thomas Müller",
+            "position": "Attacker",
+            "dateOfBirth": "1989-09-13T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 2035,
+            "name": "Sami Khedira",
+            "position": "Midfielder",
+            "dateOfBirth": "1987-04-04T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 3173,
+            "name": "Marc-André ter Stegen",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1992-04-30T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 3175,
+            "name": "Kevin Trapp",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1990-09-08T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 3176,
+            "name": "Matthias Ginter",
+            "position": "Defender",
+            "dateOfBirth": "1994-01-19T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 3177,
+            "name": "Antonio Rüdiger",
+            "position": "Defender",
+            "dateOfBirth": "1993-03-03T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 3178,
+            "name": "Marvin Plattenhardt",
+            "position": "Defender",
+            "dateOfBirth": "1992-01-26T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 3179,
+            "name": "Julian Draxler",
+            "position": "Midfielder",
+            "dateOfBirth": "1993-09-20T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 3181,
+            "name": "Leon Goretzka",
+            "position": "Midfielder",
+            "dateOfBirth": "1995-02-06T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 3182,
+            "name": "Ilkay Gündogan",
+            "position": "Midfielder",
+            "dateOfBirth": "1990-10-24T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 3187,
+            "name": "Timo Werner",
+            "position": "Attacker",
+            "dateOfBirth": "1996-03-06T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "PLAYER"
+        },
+        {
+            "id": 10178,
+            "name": "Joachim Löw",
+            "position": null,
+            "dateOfBirth": "1960-02-03T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "COACH"
+        },
+        {
+            "id": 43800,
+            "name": "Andreas Köpke",
+            "position": null,
+            "dateOfBirth": "1962-03-12T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "role": "GOALKEEPER_COACH"
+        }
+    ],
+    "lastUpdated": "2018-06-02T13:49:58Z"
+}

@@ -1,0 +1,44 @@
+{
+    "count": 12,
+    "filters": {
+        "plan": "TIER_ONE"
+    },
+    "competitions": [
+        {
+            "id": 2014,
+            "area": {
+                "id": 2224,
+                "name": "Spain"
+            },
+            "name": "Primera Division",
+            "code": "PD",
+            "plan": "TIER_ONE",
+            "currentSeason": {
+                "id": 281,
+                "startDate": "2018-08-17",
+                "endDate": "2019-05-26",
+                "currentMatchday": 3
+            },
+            "numberOfAvailableSeasons": 2,
+            "lastUpdated": "2018-09-01T22:09:40Z"
+        },
+        {
+            "id": 2000,
+            "area": {
+                "id": 2267,
+                "name": "World"
+            },
+            "name": "FIFA World Cup",
+            "code": "WC",
+            "plan": "TIER_ONE",
+            "currentSeason": {
+                "id": 1,
+                "startDate": "2018-06-14",
+                "endDate": "2018-07-15",
+                "currentMatchday": 3
+            },
+            "numberOfAvailableSeasons": 1,
+            "lastUpdated": "2018-08-23T12:16:17Z"
+        }
+    ]
+}
