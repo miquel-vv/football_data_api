@@ -12,7 +12,7 @@
             },
             "name": "Primera Division",
             "code": "PD",
-            "plan": "TIER_ONE",
+            "plan": "TIER_THREE",
             "currentSeason": {
                 "id": 281,
                 "startDate": "2018-08-17",

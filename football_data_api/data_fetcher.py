@@ -3,14 +3,21 @@ import requests
 from datetime import datetime
 
 PLANS = ['TIER_ONE', 'TIER_TWO', 'TIER_THREE', 'TIER_FOUR']
+FILTERS = {'dateFrom', 'dateTo', 'id',
+           'matchday', 'season', 'status',
+           'venue', 'stage', 'plan',
+           'competitions', 'group', 'limit'}
 
 
 def url_filters(**kwargs):
+    global FILTERS
     if not kwargs:
         return ''
     template_filter = '{filter}={value}&'
     filters = '?'
     for filt, value in kwargs.items():
+        if filt not in FILTERS:
+            raise ValueError('{} is not a valid filter, valid filters are: {}'.format(filt, FILTERS))
         if isinstance(value, datetime):
             value = value.strftime('%Y-%m-%d')
         else:
@@ -48,7 +55,7 @@ class CompetitionData:
     https://www.football-data.org/coverage)."""
 
     def __init__(self, competition_name=None, plan='TIER_ONE'):
-        self.BASE_URL = 'https://api.football-data.org/v2/competitions/'
+        self.BASE_URL = 'https://api.football-data.org/v2/competitions'
         self._plan = plan
         self._competition = 0  # competition is the football-data id for the chosen competition.
         self.competition_name = ''
@@ -92,9 +99,8 @@ class CompetitionData:
         if type not in {'teams', 'matches', 'competition'}:
             raise ValueError('type should be either teams, matches or competition not {}'.format(type))
 
-        url = kwargs['url'] if type == 'competition' else kwargs['url'] + type
-        del kwargs['url']
-
+        url = kwargs.pop('url') if type == 'competition' else kwargs.pop('url') + type
+        url += url_filters(**kwargs)
         return requests.get(url, headers=self.headers)
 
     @property
@@ -119,6 +125,7 @@ class CompetitionData:
     @competition.setter
     def competition(self, competition_name):
         try:
+            competition_name = competition_name.lower()
             self._competition = self.available_competitions[competition_name]
             self.competition_name = competition_name
         except KeyError:
