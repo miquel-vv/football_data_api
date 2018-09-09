@@ -1,0 +1,1 @@
+from .football_data_api.data_fetchers import CompetitionData
