@@ -8,6 +8,14 @@ The intend of the tool is to **simplify requests** to the api **for python** use
 simply offers an interface and returns the response in a dictionary format.
 
 ## 2. How to install it.
+This program can be installed through pypi using pip:
+
+       pip install football_data_api
+       
+Before you can use it however you need to register and get an api-key on [football-data.org](https://www.football-data.org/client/register).
+After you got the key you need to set it as an environment variable with key: FOOTBALL_DATA_API.
+
+Once that is done you are ready to go!
 
 ## 3. How to use it.
 #### 3.1 Starting
@@ -19,8 +27,8 @@ the same name as on football-data.org.
 
 Instantiate CompetitionData object:
     
-    >>> from football_data_api import data_fetchers
-    >>> data = data_fetchers.CompetitionData()
+    >>> import football_data_api
+    >>> data = football_data_api.CompetitionData()
     
 #### 3.2 Setting the competition
 If you are not sure which competitions you can choose from or how the competition is named exactly, you can call the 
