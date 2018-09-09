@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+README.md
+football_data_api/__init__.py
+football_data_api/data_fetchers.py
+football_data_api.egg-info/PKG-INFO
+football_data_api.egg-info/SOURCES.txt
+football_data_api.egg-info/dependency_links.txt
+football_data_api.egg-info/top_level.txt
+tests/__init__.py
+tests/test_football_data_api.py
