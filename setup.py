@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="football_data_api",
-    version="0.0.1",
+    version="0.0.3",
     author="Miquel Vande Velde",
     author_email="miquel.vandevelde@gmail.com",
     url='https://github.com/miquel-vv/football_data_api',
-    download_url='https://github.com/miquel-vv/football_data_api/archive/v_02.tar.gz',
+    download_url='https://github.com/miquel-vv/football_data_api/archive/v_03.tar.gz',
     keywords=['football', 'data', 'football-data.org'],
     description="Python interface for the football-data.org api from Daniel.",
     long_description=long_description,
