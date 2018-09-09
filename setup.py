@@ -14,11 +14,7 @@ setuptools.setup(
     description="Python interface for the football-data.org api from Daniel.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=['certifi',
-              'chardet',
-              'idna',
-              'requests',
-              'urllib3'],
+    packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
