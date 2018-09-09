@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="Miquel Vande Velde",
     author_email="miquel.vandevelde@gmail.com",
-    description="easy python interface for the football-data.org api from daniel.",
+    description="Python interface for the football-data.org api from Daniel.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
