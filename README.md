@@ -1,15 +1,15 @@
-#Football Data Api (Python Interface)
+# Football Data Api (Python Interface)
 
-##1. Introduction
+## 1. Introduction
 This tool was built using the api provided by [football-data.org](https://www.football-data.org/) so all kudos go to Daniel, 
 the creator of that tool.
 
 The intend of the tool is to **simplify requests** to the api **for python** use. It does not rearrange any of the responses, it 
 simply offers an interface and returns the response in a dictionary format.
 
-##2. How to install it.
+## 2. How to install it.
 
-##3. How to use it.
+## 3. How to use it.
 #### 3.1 Starting
 After installing the package, simply create a CompetitionData object. The CompetitionData object accepts two optional
 arguments: competition name and plan. Plan refers to the tier system that football-data.org uses to manage the payment 
@@ -77,7 +77,7 @@ _Note on filters: Not all filters work on all type of request (e.g. passing a ma
 make sense). Currently these checks are not included in the interface, when an invalid filter is passed, the api will 
 simply return an unfiltered result._
 
-##4. Next Steps
+## 4. Next Steps
 Next items to be included:
   * Fetchers for info about teams and their players.
   * Keep track of api request for heavy api use (Limit of 10 per minute at the moment which is not being checked by this
